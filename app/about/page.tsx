@@ -6,7 +6,7 @@ const About = () => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <div className="flex flex-col items-center p-4" id="about">
+    <div className="flex flex-col items-center p-4 my-10" id="about">
       <div className="flex flex-col md:flex-row items-center gap-5 justify-between min-h-screen py-10 container mx-auto ">
       <div className="flex-1">
         <h1 className="text-4xl uppercase font-bold text-background mb-4">
@@ -75,7 +75,7 @@ const About = () => {
           alt="About Us"
           width={300}
           height={200}
-          className="rounded-xl shadow-2xl object-cover"
+          className="rounded-xl shadow-2xl object-cover opacity-70 hover:scale-95 hover:opacity-100"
           loading="eager"
         />
       </div>
