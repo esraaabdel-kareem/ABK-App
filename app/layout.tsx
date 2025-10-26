@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
 
   icons: {
-    icon: "/Logo.ico",
+    icon: "/Logo.jpg",
   },
   authors: [
     { name: "ABK CONSULTANTS", url: "https://abk-consultants.com" },  
@@ -42,3 +42,4 @@ export default function RootLayout({
     </html>
   );
 }
+
